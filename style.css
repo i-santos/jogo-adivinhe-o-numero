@@ -1,0 +1,12 @@
+#num-tentativas{
+    color: rgb(255, 0, 21);
+    font-size: 50px;
+}
+
+.classe1{
+    color: green;
+}
+
+.error {
+    display: none;
+}

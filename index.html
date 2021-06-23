@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Jogo - Adivinhe o Número</h1>
+    <h3>
+      Tente adivinhar um número de 1 a 100. Você possui
+      <span id="num-tentativas"></span> tentativas.
+    </h3>
+    <h4>Números já jogados: <span id="num-played"></span></h4>
+    <input
+      id="aposta"
+      type="text"
+      placeholder="Digite o número..."
+      value="10"
+    />
+    <button onclick="jogar();">Jogar</button>
+    <p id="already-taken"></p>
+    <!-- Saída de Dados (resultados e informações) -->
+    <div id="resultMessage" class="error"></div>
+
+    <script src="mikagame.js"></script>
+  </body>
+</html>
