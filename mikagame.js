@@ -23,7 +23,7 @@ var gameState = {
   // armazena se o jogo acabou ou não
   gameOver: false,
   // armazena o número que deve ser acertado
-  numeroSorteado: /*Math.ceil(Math.random() * 100)*/ 90,
+  numeroSorteado: Math.ceil(Math.random() * 100),
   // armazena os números já jogados
   numerosJogados: [],
   error: null
